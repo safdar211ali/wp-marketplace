@@ -1,0 +1,27 @@
+/*
+Theme Name: Market Place
+Author: Safdar Ali
+Version: 1.0
+*/
+
+@font-face {
+    font-family: 'customfonts';
+    src: url('/wp/wp-content/themes/marketplace/fonts/pknastaliq.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ur-font {
+    font-family: customfonts;
+    font-size: medium;
+}
+
+.ur-rtl {
+    direction: rtl;
+    font-family: customfonts;
+    font-size: medium;
+}
+
+.navbar-inverse{
+    opacity: .7;
+}
