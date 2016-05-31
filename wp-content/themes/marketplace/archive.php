@@ -8,26 +8,7 @@
                 $parent = 'parent';
                 $category_ID = $queried_object->term_id;
 
-                //   getting posts title
-                global $wpdb;
-                $sql ="SELECT *  FROM wp_posts
-INNER JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id)
-INNER JOIN wp_term_taxonomy ON (wp_term_relationships.term_taxonomy_id = wp_term_taxonomy.term_taxonomy_id)
-WHERE (wp_term_taxonomy.term_id =  $category_ID
-AND wp_term_taxonomy.taxonomy = 'product_category'
-AND wp_posts.post_type = 'product'
-AND wp_posts.post_status = 'publish')";
-                //                $sql="SELECT DISTINCT post_title FROM wp_posts WHERE post_type='product' ";
 
-                $posts = $wpdb->get_results($sql);
-                print_r( $posts);
-                print("<ul>");
-                foreach ($posts as $post) {
-                    print('<li>' . $post->post_title . '<br/>');
-                    print('</li>');
-                }
-                print("</ul>");
-                //   end getting posts title
 
                 if ($queried_object->$parent === 0) {
                     // get_template_part( 'parentcategory' );
@@ -81,13 +62,35 @@ AND wp_posts.post_status = 'publish')";
                     </select>
 
                 <?php
+                //   getting posts title
+                global $wpdb;
+                $sql ="SELECT *  FROM wp_posts
+INNER JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id)
+INNER JOIN wp_term_taxonomy ON (wp_term_relationships.term_taxonomy_id = wp_term_taxonomy.term_taxonomy_id)
+WHERE (wp_term_taxonomy.term_id =  $category_ID
+AND wp_term_taxonomy.taxonomy = 'product_category'
+AND wp_posts.post_type = 'product'
+AND wp_posts.post_status = 'publish')";
+                //                $sql="SELECT DISTINCT post_title FROM wp_posts WHERE post_type='product' ";
 
+                $posts = $wpdb->get_results($sql);
+                print_r( $posts);
+                print("<ul>");
+                foreach ($posts as $post) {
+                $url = site_url('/product_category/' . $post->post_title);
+                    ?>
+                <li><a href="<?php echo $url ?>"><?php echo $post->post_title ?></a></li>
+                        <?php
+                }
+                print("</ul>");
+                //   end getting posts title
                 } else
                 if ($queried_object->$parent !== 0) {
 
                 if (count(get_term_children($queried_object->term_id, 'product_category')) == 0) {
                 // Start the Loop.
                 ?>
+
                     <table class="table table-bordered table-hover">
                         <thead style="color: #337AB7;font-weight: bold;">
                         <tr>
