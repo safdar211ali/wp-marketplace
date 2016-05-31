@@ -1,3 +1,7 @@
+
+<div class="panel panel-primary">
+    <div class="panel-heading">Menu</div>
+
 <div class="list-group">
     <?php
     global $wpdb;
@@ -17,11 +21,19 @@
     }
     ?>
 </div>
+    </div>
 
 
 
 
 
+<div class="panel panel-primary">
+    <div class="panel-heading">Weather (موسم)</div>
+    <div class="panel-body">
+        <?php if(function_exists(wp_forecast)) { wp_forecast( ); } ?>
+    </div>
+
+</div>
 
 
 
