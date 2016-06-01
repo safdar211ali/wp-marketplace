@@ -28,12 +28,21 @@
 
 
 <div class="panel panel-primary">
-    <div class="panel-heading">Weather (موسم)</div>
+    <div class="bg-primary">For Weather Enter City</div>
     <div class="panel-body">
-        <?php if(function_exists(wp_forecast)) { wp_forecast( ); } ?>
+        <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+            <div id="widget-area" class="widget-area" role="complementary">
+                <?php dynamic_sidebar( 'sidebar-1' ); ?>
+            </div><!-- .widget-area -->
+        <?php endif; ?>
     </div>
 
 </div>
+
+
+
+
+
 
 
 
