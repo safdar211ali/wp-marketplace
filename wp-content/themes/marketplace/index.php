@@ -11,6 +11,11 @@ get_header();
 
                 </div>
             </div>
+            <?php
+            
+
+            ?>
+
             <div class="row">
 
                 <?php
@@ -31,7 +36,7 @@ get_header();
 
                         <a href="<?php echo $url; ?>">
                         <button type="button" class="btn btn-default">
-                            <?php   $result = get_field('upload_image', 'product_category_' . $category_obj->term_id );?>
+                            <?php   $result = get_field('catimg', 'product_category_' . $category_obj->term_id );?>
                             <img src=" <?php echo $result[url];?>" class="img-responsive" alt="...">
                             </button>
                         <div class="portfolio-details ">

@@ -25,3 +25,12 @@ Version: 1.0
 .navbar-inverse{
     opacity: .7;
 }
+
+section h2 {
+    font-size: 14px !important;
+    margin: 0;
+    font-weight: normal;
+    font-family:Helvetica,Arial,sans-serif;
+    margin-bottom: 5px;
+    color:#337AB7;
+}

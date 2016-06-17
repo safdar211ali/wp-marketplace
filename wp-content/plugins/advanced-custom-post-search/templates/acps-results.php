@@ -1,7 +1,16 @@
 <?php get_header(); ?>
+	<div id="primary" class="container content-area">
+	<div class="row" id="content" class="site-content" role="main">
+	<div class="col-md-10">
+	<div class="row">
+		<div class="section-title text-center">
+			<h3>Search Result</h3>
 
-<div id="primary" class="content-area">
-    <div id="content" class="site-content" role="main">
+		</div>
+	</div>
+	<div class="row">
+
+
     
 	<?php
     while ( have_posts() ) : the_post();
@@ -14,10 +23,13 @@
 	//Reset postdata (avoid potential conflicts)
 	wp_reset_postdata();
 	?>
-    
+	</div><!-- /.row -->
 	</div>
-</div>
+		<div class="col-md-2">
+			<?php get_sidebar() ?>
+		</div>
 
-<?php get_sidebar( 'content' ); ?>
-<?php get_sidebar(); ?>
+	</div>
+	</div>
+
 <?php get_footer(); ?>
