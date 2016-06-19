@@ -9,4 +9,8 @@ jQuery(document).ready(function(){
     });
     $('#table1').DataTable();
     $('#table2').DataTable();
+    $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
 });
+
+$("#optlist").chosen();
+$("#optlist2").chosen();

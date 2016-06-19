@@ -2,11 +2,11 @@
 get_header();
 ?>
 
-<div class="container">
+<div class="container ">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-9">
             <div class="row">
-                <div class="section-title text-center">
+                <div class=" main_cats section-title text-center">
                     <h3>Main Categories</h3>
 
                 </div>
@@ -32,7 +32,8 @@ get_header();
                 foreach ($categories_array as $category_obj) {
                     ?>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center mybtn">
-                     <?php     $url = site_url( '/product_category/'.$category_obj->slug );?>
+                     <?php     if($category_obj->slug == 'steelpricelist')$url =  site_url( '/'.$category_obj->slug );
+                     else $url =  site_url( '/product_category/'.$category_obj->slug );?>
 
                         <a href="<?php echo $url; ?>">
                         <button type="button" class="btn btn-default">
@@ -51,9 +52,10 @@ get_header();
                 ?>
 
 
+
             </div><!-- /.row -->
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
             <?php get_sidebar() ?>
         </div>
 

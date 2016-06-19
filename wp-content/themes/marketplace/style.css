@@ -4,12 +4,6 @@ Author: Safdar Ali
 Version: 1.0
 */
 
-@font-face {
-    font-family: 'customfonts';
-    src: url('/wp/wp-content/themes/marketplace/fonts/pknastaliq.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .ur-font {
     font-family: customfonts;
@@ -26,11 +20,27 @@ Version: 1.0
     opacity: .7;
 }
 
-section h2 {
+aside h2 {
     font-size: 14px !important;
     margin: 0;
     font-weight: normal;
     font-family:Helvetica,Arial,sans-serif;
     margin-bottom: 5px;
     color:#337AB7;
+}
+.main_catssection-title h3{
+    margin-top: 0;
+
+
+}
+.main_cats {
+    text-shadow: 0 0 7px #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    margin-bottom: 0;
+
+
 }

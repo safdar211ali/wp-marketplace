@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/freelancer.css" rel="stylesheet">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/chosen.min.css" rel="stylesheet">
-    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.dataTables.min.js" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.dataTables.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -77,7 +77,7 @@
     echo do_shortcode('[print_responsive_slider_plus_lightbox]');
 
 ?>
-    <?php wp_nav_menu(); ?>
+<!--    --><?php //wp_nav_menu(); ?>
 
 <!--<div id="carousel-example" class="carousel slide" data-ride="carousel">-->
 <!--    <ol class="carousel-indicators">-->
@@ -121,4 +121,3 @@
 
 
 <!-- Portfolio Grid Section -->
-<section id="portfolio">

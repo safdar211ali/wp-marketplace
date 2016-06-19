@@ -1,5 +1,4 @@
 
-</section>
 <!-- Footer -->
 <footer class="text-center">
     <div class="footer-above">
@@ -77,9 +76,7 @@
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/custom.js"></script>
 
-<script>
-    $("#optlist").chosen();
-</script>
+
 <?php wp_footer();?>
 </body>
 
