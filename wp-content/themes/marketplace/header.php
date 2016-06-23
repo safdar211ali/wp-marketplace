@@ -56,7 +56,8 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="<?php echo get_home_url(); ?>">Home</a>
+                    <a href="<?php echo get_home_url(); ?>"><span style="font-size: 20px;" class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span></a>
+
                 </li>
                 <li class="page-scroll">
                     <a href="#about">About</a>
