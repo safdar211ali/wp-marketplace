@@ -1,4 +1,5 @@
 <?php
+
 get_header();
 ?>
 
@@ -38,11 +39,13 @@ get_header();
                             $url = site_url('/' . $category_obj->slug);
                         }elseif ($category_obj->slug == 'goldsilver') {
                             $url = site_url('/' . $category_obj->slug);
+                        }elseif ($category_obj->slug == 'frontuserdatamachinery') {
+                            $url = site_url('/' . $category_obj->slug);
                         }elseif ($category_obj->slug == 'currencyrates') {
                             $url = 'http://www.forex.pk/open_market_rates.asp';
                         } elseif ($category_obj->slug == 'stockexchange') {
                             $url = 'http://www.psx.com.pk/';
-                        } else {
+                            } else {
                             $url = site_url('/product_category/' . $category_obj->slug);
                         }
                         ?>

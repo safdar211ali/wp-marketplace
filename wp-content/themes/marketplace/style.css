@@ -60,3 +60,8 @@ aside h2 {
 
 }
 .dataTables_filter input { width: 600px }
+.formouter{
+    border: thin solid #CCCCCC;
+    border-radius: 8px;
+    padding: 10px;
+}
