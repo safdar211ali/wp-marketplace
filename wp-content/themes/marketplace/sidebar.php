@@ -21,6 +21,10 @@
                 $url = site_url('/' . $category_obj->slug);
             }elseif ($category_obj->slug == 'frontuserdatamachinery') {
                 $url = site_url('/' . $category_obj->slug);
+            }elseif ($category_obj->slug == 'frontuserland') {
+                $url = site_url('/' . $category_obj->slug);
+            }elseif ($category_obj->slug == 'frontuserfruitfarm') {
+                $url = site_url('/' . $category_obj->slug);
             }elseif ($category_obj->slug == 'currencyrates') {
                 $url = 'http://www.forex.pk/open_market_rates.asp';
             } elseif ($category_obj->slug == 'stockexchange') {

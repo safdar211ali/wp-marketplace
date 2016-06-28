@@ -8,11 +8,22 @@ jQuery(document).ready(function(){
         return t.replace('The location could not be found.', '');
     });
     $('#table1').DataTable();
-    $('#table2').DataTable();
+    $('#machinery').DataTable();
+
 // datatable placeholder
-    $('div.dataTables_filter input').attr('placeholder', 'Search Any of the product,city,minimum rate,maximum rate تلاش کریں۔');
+    $('div.dataTables_filter input').attr('placeholder', 'Search Any thing');
+
+
+$('#addland').click(function () {
+        $('#frontuserdata')[0].reset();
+    $("#hidden_id").remove();
+    });
+
+
 
 });
 
 $("#optlist").chosen();
 $("#optlist2").chosen();
+
+

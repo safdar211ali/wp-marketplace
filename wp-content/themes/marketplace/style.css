@@ -4,7 +4,6 @@ Author: Safdar Ali
 Version: 1.0
 */
 
-
 .ur-font {
     font-family: customfonts;
     font-size: medium;
@@ -16,7 +15,7 @@ Version: 1.0
     font-size: medium;
 }
 
-.navbar-inverse{
+.navbar-inverse {
     opacity: .7;
 }
 
@@ -24,15 +23,16 @@ aside h2 {
     font-size: 14px !important;
     margin: 0;
     font-weight: normal;
-    font-family:Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     margin-bottom: 5px;
-    color:#337AB7;
+    color: #337AB7;
 }
-.main_catssection-title h3{
+
+.main_catssection-title h3 {
     margin-top: 0;
 
-
 }
+
 .main_cats {
     text-shadow: 0 0 7px #000000;
     font-weight: bold;
@@ -42,26 +42,65 @@ aside h2 {
     color: #ffffff;
     margin-bottom: 0;
 
-
 }
 
-.container-no-margin{
+.container-no-margin {
     margin: 10px !important;
 }
-.ifram-div{
-    width    : 100%;
-    height   : 14000px;
-    overflow : hidden;
-    position : relative;
+
+.ifram-div {
+    width: 100%;
+    height: 14000px;
+    overflow: hidden;
+    position: relative;
 }
-.yarn-iframe{
-    position : absolute;
-    top      : -950px;
+
+.yarn-iframe {
+    position: absolute;
+    top: -950px;
 
 }
-.dataTables_filter input { width: 600px }
-.formouter{
+
+.dataTables_filter input {
+    width: 600px
+}
+
+.formouter {
     border: thin solid #CCCCCC;
     border-radius: 8px;
     padding: 10px;
 }
+
+#modalid .modal-dialog {
+    width: 900px;
+}
+
+
+/*table*/
+
+#table-2 {
+
+    width: 100%;
+
+}
+table, td {
+    border-color: #ffffff;
+}
+#table-2 td, #table-2 th {
+    padding: 5px;
+
+}
+
+#table-2 td {
+    line-height: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+}
+.mytd{
+    background-color: #d2d2d2;
+}
+.mytd2{
+    background-color: #e9e9e9;
+}
+
