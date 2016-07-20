@@ -74,9 +74,14 @@
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/freelancer.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.chosen.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-ui.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/custom.js"></script>
 
-
+<script>
+    $(function() {
+        $( "#tabs" ).tabs();
+    });
+</script>
 <?php wp_footer();?>
 </body>
 

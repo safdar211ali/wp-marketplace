@@ -1,16 +1,17 @@
 
 
 <?php
+$current_user = wp_get_current_user();
 global $wpdb;
 if (isset($_POST['submit'])) {
-    $owner = $_POST['owner'];
-    $products = $_POST['products'];
-    $model = $_POST['model'];
-    $location = $_POST['location'];
-    $condition = $_POST['condition'];
-    $price = $_POST['price'];
-    $phone = $_POST['phone'];
-    $status = $_POST['status'];
+    $owner = addslashes($_POST['owner']);
+    $products = addslashes($_POST['products']);
+    $model = addslashes($_POST['model']);
+    $location = addslashes($_POST['location']);
+    $condition = addslashes($_POST['condition']);
+    $price = addslashes($_POST['price']);
+    $phone = addslashes($_POST['phone']);
+    $status = addslashes($_POST['status']);
     $p_type = $_POST['p_type'];
     $data =   array(
         'owner' => $owner,
@@ -21,7 +22,8 @@ if (isset($_POST['submit'])) {
         'price' => $price,
         'phone' => $phone,
         'status' => $status,
-        'p_type' => $p_type
+        'p_type' => $p_type,
+        'user_id'=> $current_user->ID
 
     );
     if (isset($_POST["hidden_id"])) {
@@ -85,14 +87,26 @@ get_header();
 
 <div class="container ">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
 
             <!--listing-->
-            <p class="text-center"><span style="color: #337AB7;">Manage Agricultural Machinery</span></p>
-           <p>  <button id="addland" type="button " class="btn btn-primary" data-toggle="modal" data-target=".mymod">Add Data
-               </button></p>
+            <h4> <p class="text-center"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/users/machinery.png" alt="machinery" width="50" height="50"><span style="color: #337AB7;">Manage Agricultural Machinery</span></p></h4>
+            <?php $c_user = wp_get_current_user(); ?>
+            <?php if ($c_user->user_login == null): ?>
+                <p style="color: red;" class="text-center">Please login to Manage Agricultural Machinery</p>
+            <?php endif; ?>
+           <p>
+               <?php $c_user = wp_get_current_user(); ?>
+               <?php if ($c_user->user_login != null): ?>
+               <button id="addland" type="button " class="btn btn-primary" data-toggle="modal" data-target=".mymod">Add Data
+               </button>
+               <?php endif; ?>
+               <a href="/wp/dashboard">
+           <span class="glyphicon glyphicon-menu-left btn btn-primary">Dashboard</span>
+               </a>
+           </p>
             <?php
-            $sql = "SELECT * FROM wp_frontuserdata WHERE p_type='machinery'";
+            $sql = "SELECT * FROM wp_frontuserdata WHERE p_type='machinery' AND user_id='".$current_user->ID."'";
             $results = $wpdb->get_results($sql);
             ?>
             <div class="table-responsive">
@@ -158,9 +172,7 @@ get_header();
             ?>
             <!--end listing-->
         </div>
-        <div class="col-md-3">
-            <?php get_sidebar() ?>
-        </div>
+
     </div>
 </div>
 <?php
@@ -232,56 +244,57 @@ get_footer();
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Owner Name</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="owner"
-                                       placeholder="Enter owner name">
+                                <input  class="form-control" type="text" name="owner"
+                                       required="required" maxlength="100"    placeholder="Enter owner name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Phone #</label>
+                            <div class="col-sm-10">
+                                <input  class="form-control" type="text" name="phone"
+                                       required="required" maxlength="20"    placeholder="Enter phone number">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Product Name</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="products"
-                                       placeholder="Enter product name">
+                                <input  class="form-control" type="text" name="products"
+                                       required="required" maxlength="100"    placeholder="Enter product name">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Product Model</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="model"
-                                       placeholder="Enter model">
+                                <input  class="form-control" type="text" name="model"
+                                       required="required" maxlength="100"  placeholder="Enter model">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Location/Address</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="location"
-                                       placeholder="Enter location/address">
+                                       required="required"   placeholder="Enter location/address">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Condition</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="condition"
-                                       placeholder="Enter product condition">
+                                       required="required"    placeholder="Enter product condition">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Estimate Price</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="price"
-                                       placeholder="Enter estimate product price">
+                                <input class="form-control" type="number" name="price"
+                                       required="required"   placeholder="Enter estimate product price">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Phone #</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" type="text" name="phone"
-                                       placeholder="Enter phone number">
-                            </div>
-                        </div>
+
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Status</label>
                             <div class="col-sm-10">
-                                <select name="status" id="" class="form-control">
+                                <select name="status" id="" class="form-control" >
                                     <option value="">Select Status</option>
                                     <option value="pending">pending</option>
                                     <option value="processed">processed</option>

@@ -1,22 +1,24 @@
 <?php
+$current_user = wp_get_current_user();
 global $wpdb;
 if (isset($_POST['submit'])) {
-    $owner = $_POST['owner'];
-    $products = $_POST['products'];
-    $location = $_POST['location'];
-    $price = $_POST['price'];
-    $phone = $_POST['phone'];
-    $land_water_type = $_POST['land_water_type'];
-    $land_for = $_POST['land_for'];
-    $area = $_POST['area'];
-    $land_direction = $_POST['land_direction'];
-    $land_best_products = $_POST['land_best_products'];
-    $land_major_crops = $_POST['land_major_crops'];
-    $land_yield = $_POST['land_yield'];
-    $land_average_price = $_POST['land_average_price'];
-    $land_distance = $_POST['land_distance'];
-    $status = $_POST['status'];
+    $owner = addslashes($_POST['owner']);
+    $products = addslashes($_POST['products']);
+    $location = addslashes($_POST['location']);
+    $price = addslashes($_POST['price']);
+    $phone = addslashes($_POST['phone']);
+    $land_water_type = addslashes($_POST['land_water_type']);
+    $land_for = addslashes($_POST['land_for']);
+    $area = addslashes($_POST['area']);
+    $land_direction = addslashes($_POST['land_direction']);
+    $land_best_products = addslashes($_POST['land_best_products']);
+    $land_major_crops = addslashes($_POST['land_major_crops']);
+    $land_yield = addslashes($_POST['land_yield']);
+    $land_average_price = addslashes($_POST['land_average_price']);
+    $land_distance = addslashes($_POST['land_distance']);
+    $status = addslashes($_POST['status']);
     $p_type = $_POST['p_type'];
+
 
     $data =  array(
         'owner' => $owner,
@@ -34,7 +36,8 @@ if (isset($_POST['submit'])) {
         'land_yield' => $land_yield,
         'land_average_price' => $land_average_price,
         'land_distance' => $land_distance,
-        'p_type' => $p_type
+        'p_type' => $p_type,
+        'user_id'=> $current_user->ID
 
     );
 
@@ -99,17 +102,27 @@ get_header();
 <!--end edit-->
 <div class="container ">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
 
 
             <!--listing-->
-            <p class="text-center"><span style="color: #337AB7;">Manage Agricultural Land for lease or sale</span></p>
+            <h4> <p class="text-center"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/users/land.png" alt="land" width="50" height="50"><span style="color: #337AB7;">Manage Agricultural Land for lease or sale</span></p></h4>
+            <?php $c_user = wp_get_current_user(); ?>
+            <?php if ($c_user->user_login == null): ?>
+                <p style="color: red;" class="text-center">Please login to Manage Agricultural Land for lease or sale</p>
+            <?php endif; ?>
             <p>
+                <?php $c_user = wp_get_current_user(); ?>
+                <?php if ($c_user->user_login != null): ?>
                 <button id="addland" type="button " class="btn btn-primary" data-toggle="modal" data-target=".mymod">Add Data
                 </button>
+                <?php endif; ?>
+                <a href="/wp/dashboard">
+                    <span class="glyphicon glyphicon-menu-left btn btn-primary">Dashboard</span>
+                </a>
             </p>
             <?php
-            $sql = "SELECT * FROM wp_frontuserdata WHERE p_type='land'";
+            $sql = "SELECT * FROM wp_frontuserdata WHERE p_type='land' AND user_id='".$current_user->ID."'";
             $results = $wpdb->get_results($sql);
             ?>
             <div class="table-responsive">
@@ -174,9 +187,7 @@ get_header();
             ?>
             <!--end listing-->
         </div>
-        <div class="col-md-3">
-            <?php get_sidebar() ?>
-        </div>
+        
     </div>
 </div>
 <?php
@@ -249,20 +260,27 @@ get_footer();
                             <label class="col-sm-2 control-label">Owner Name</label>
                             <div class="col-sm-10">
                                 <input id="owner_name" value="" class="form-control" type="text" name="owner"
-                                       placeholder="Enter owner name">
+                                       required="required" maxlength="100"    placeholder="Enter owner name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Phone #</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" type="text" name="phone"
+                                       required="required" maxlength="20"    placeholder="Enter phone number">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Land</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="products" value="Agri Land"
-                                       placeholder="Enter Agri Land">
+                                       required="required" maxlength="100"     placeholder="Enter Agri Land">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Land Water Type</label>
                             <div class="col-sm-10">
-                                <select name="land_water_type" id="" class="form-control">
+                                <select name="land_water_type" id="" class="form-control" required="required">
                                     <option value="">Select Land Water Type</option>
                                     <option value="Barani">Barani</option>
                                     <option value="Canal">Canal</option>
@@ -273,7 +291,7 @@ get_footer();
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Land For</label>
                             <div class="col-sm-10">
-                                <select name="land_for" id="" class="form-control">
+                                <select name="land_for" id="" class="form-control" required="required" >
                                     <option value="">Select Land For</option>
                                     <option value="Lease">Lease</option>
                                     <option value="Rent">Rent</option>
@@ -284,28 +302,28 @@ get_footer();
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Estimate Price</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="price"
-                                       placeholder="Enter estimate land price">
+                                <input class="form-control" type="number" name="price"
+                                       required="required"   placeholder="Enter estimate land price">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Land Area</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="area"
-                                       placeholder="Enter land area">
+                                       required="required" maxlength="20"  placeholder="Enter land area">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Location/Address</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="location"
-                                       placeholder="Enter location/address">
+                                       required="required"    placeholder="Enter location/address">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Direction From City</label>
                             <div class="col-sm-10">
-                                <select name="land_direction" id="" class="form-control">
+                                <select name="land_direction" id="" class="form-control" required="required" >
                                     <option value="">Select land direction from city</option>
                                     <option value="East">East</option>
                                     <option value="West">West</option>
@@ -319,48 +337,42 @@ get_footer();
                             <label class="col-sm-2 control-label">Distance From City</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="land_distance"
-                                       placeholder="Enter distance of land from city">
+                                       required="required" maxlength="25"    placeholder="Enter distance of land from city">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Land Best For Crops</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="textarea" name="land_best_products"
-                                       placeholder="Enter crops for which this land is best">
+                                       required="required"    placeholder="Enter crops for which this land is best">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Major Crops Of Land Area</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="textarea" name="land_major_crops"
-                                       placeholder="Enter major crops of land area">
+                                       required="required"   placeholder="Enter major crops of land area">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Average Yield/acre</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="land_yield"
-                                       placeholder="Enter average yield per acre">
+                                       required="required" maxlength="25"    placeholder="Enter average yield per acre">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Average Price/acre</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="land_average_price"
-                                       placeholder="Enter average price per acre">
+                                <input class="form-control" type="number" name="land_average_price"
+                                       required="required"   placeholder="Enter average price per acre">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Phone #</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" type="text" name="phone"
-                                       placeholder="Enter phone number">
-                            </div>
-                        </div>
+
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Status</label>
                             <div class="col-sm-10">
-                                <select name="status" id="" class="form-control">
+                                <select name="status" id="" class="form-control" >
                                     <option value="">Select Status</option>
                                     <option value="pending">pending</option>
                                     <option value="processed">processed</option>

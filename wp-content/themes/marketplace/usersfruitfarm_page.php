@@ -1,21 +1,21 @@
 <?php
+$current_user = wp_get_current_user();
 global $wpdb;
 if (isset($_POST['submit'])) {
-    $owner = $_POST['owner'];
-    $products = $_POST['products'];
-    $location = $_POST['location'];
-    $price = $_POST['price'];
-    $phone = $_POST['phone'];
-    $land_water_type = $_POST['land_water_type'];
-    $land_for = $_POST['land_for'];
-    $area = $_POST['area'];
-    $land_direction = $_POST['land_direction'];
-    $land_best_products = $_POST['land_best_products'];
-    $land_major_crops = $_POST['land_major_crops'];
-    $land_yield = $_POST['land_yield'];
-    $land_average_price = $_POST['land_average_price'];
-    $land_distance = $_POST['land_distance'];
-    $status = $_POST['status'];
+    $owner = addslashes($_POST['owner']);
+    $products = addslashes($_POST['products']);
+    $location = addslashes($_POST['location']);
+    $price = addslashes($_POST['price']);
+    $phone = addslashes($_POST['phone']);
+    $land_water_type = addslashes($_POST['land_water_type']);
+    $land_for = addslashes($_POST['land_for']);
+    $area = addslashes($_POST['area']);
+    $land_direction = addslashes($_POST['land_direction']);
+    $land_major_crops =addslashes( $_POST['land_major_crops']);
+    $land_yield = addslashes($_POST['land_yield']);
+    $fruit = addslashes($_POST['fruit']);
+    $land_distance = addslashes($_POST['land_distance']);
+    $status =addslashes( $_POST['status']);
     $p_type = $_POST['p_type'];
 
     $data =  array(
@@ -29,12 +29,12 @@ if (isset($_POST['submit'])) {
         'land_for' => $land_for,
         'area' => $area,
         'land_direction' => $land_direction,
-        'land_best_products' => $land_best_products,
         'land_major_crops' => $land_major_crops,
         'land_yield' => $land_yield,
-        'land_average_price' => $land_average_price,
+        'fruit' => $fruit,
         'land_distance' => $land_distance,
-        'p_type' => $p_type
+        'p_type' => $p_type,
+        'user_id'=> $current_user->ID
 
     );
 
@@ -93,23 +93,34 @@ if (isset($_GET['show'])) {
 get_header();
 ?>
 <?php
-/* Template Name: usersfuritfarm*/
+/* Template Name: usersland */
 ?>
-<!--add-->
-<!--end edit-->
+
 <div class="container ">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-12">
 
 
             <!--listing-->
-            <p class="text-center"><span style="color: #337AB7;">Manage Agricultural Land for lease or sale</span></p>
+            <h4><p class="text-center"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/users/fruit.png" alt="fruit" width="50" height="50"><span style="color: #337AB7;">Manage Fruit Farm for lease or sale</span></p></h4>
+
+                <?php $c_user = wp_get_current_user(); ?>
+                <?php if ($c_user->user_login == null): ?>
+                <p style="color: red;" class="text-center">Please login to Manage Fruit Farm for lease or sale</p>
+            <?php endif; ?>
             <p>
+                <?php $c_user = wp_get_current_user(); ?>
+                <?php if ($c_user->user_login != null): ?>
                 <button id="addland" type="button " class="btn btn-primary" data-toggle="modal" data-target=".mymod">Add Data
                 </button>
+                <?php endif; ?>
+                <a href="/wp/dashboard">
+                    <span class="glyphicon glyphicon-menu-left btn btn-primary">Dashboard</span>
+                </a>
+            
             </p>
             <?php
-            $sql = "SELECT * FROM wp_frontuserdata WHERE p_type='land'";
+            $sql = "SELECT * FROM wp_frontuserdata WHERE p_type='fruitfarm' AND user_id='".$current_user->ID."'";
             $results = $wpdb->get_results($sql);
             ?>
             <div class="table-responsive">
@@ -174,9 +185,7 @@ get_header();
             ?>
             <!--end listing-->
         </div>
-        <div class="col-md-3">
-            <?php get_sidebar() ?>
-        </div>
+
     </div>
 </div>
 <?php
@@ -238,7 +247,7 @@ get_footer();
             <div class="modal-header bg-primary" >
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         class="glyphicon glyphicon-remove"></span></button>
-                <h4 class="modal-title" id="gridSystemModalLabel">Save Agri Land Data </h4>
+                <h4 class="modal-title" id="gridSystemModalLabel">Save Fruit Farm Data </h4>
             </div>
             <div class="modal-body">
                 <!--form-->
@@ -249,20 +258,35 @@ get_footer();
                             <label class="col-sm-2 control-label">Owner Name</label>
                             <div class="col-sm-10">
                                 <input id="owner_name" value="" class="form-control" type="text" name="owner"
-                                       placeholder="Enter owner name">
+                                   maxlength="100" required="required"   placeholder="Enter owner name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Phone #</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" type="text" name="phone"
+                                       maxlength="20" required="required"   placeholder="Enter phone number">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">Land</label>
+                            <label class="col-sm-2 control-label">Fruit Farm</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="products" value="Agri Land"
-                                       placeholder="Enter Agri Land">
+                                <input class="form-control" type="text" name="products" value="Fruit Farm"
+                                       maxlength="100" required="required"    placeholder="Enter Fruit Farm">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Fruit</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" type="text" name="fruit"
+                                       maxlength="50" required="required"     placeholder="Enter Fruit">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Land Water Type</label>
                             <div class="col-sm-10">
-                                <select name="land_water_type" id="" class="form-control">
+                                <select name="land_water_type" id="" class="form-control"  required="required">
                                     <option value="">Select Land Water Type</option>
                                     <option value="Barani">Barani</option>
                                     <option value="Canal">Canal</option>
@@ -271,10 +295,10 @@ get_footer();
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">Land For</label>
+                            <label class="col-sm-2 control-label">Fruit Farm For</label>
                             <div class="col-sm-10">
-                                <select name="land_for" id="" class="form-control">
-                                    <option value="">Select Land For</option>
+                                <select name="land_for" id="" class="form-control"  required="required">
+                                    <option value="">Select Fruit Farm For</option>
                                     <option value="Lease">Lease</option>
                                     <option value="Rent">Rent</option>
                                 </select>
@@ -284,28 +308,28 @@ get_footer();
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Estimate Price</label>
                             <div class="col-sm-10">
-                                <input class="form-control" type="text" name="price"
-                                       placeholder="Enter estimate land price">
+                                <input class="form-control" type="number" name="price"
+                                       placeholder="Enter estimate Fruit Farm price">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">Land Area</label>
+                            <label class="col-sm-2 control-label">Fruit Farm Area</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="area"
-                                       placeholder="Enter land area">
+                                       maxlength="20" required="required"    placeholder="Enter Fruit Farm area">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Location/Address</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="location"
-                                       placeholder="Enter location/address">
+                                       required="required"    placeholder="Enter location/address">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Direction From City</label>
                             <div class="col-sm-10">
-                                <select name="land_direction" id="" class="form-control">
+                                <select name="land_direction" id="" class="form-control" required="required">
                                     <option value="">Select land direction from city</option>
                                     <option value="East">East</option>
                                     <option value="West">West</option>
@@ -319,48 +343,29 @@ get_footer();
                             <label class="col-sm-2 control-label">Distance From City</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="land_distance"
-                                       placeholder="Enter distance of land from city">
+                                    required="required" maxlength="25"   placeholder="Enter distance of land from city">
                             </div>
                         </div>
+
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">Land Best For Crops</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" type="textarea" name="land_best_products"
-                                       placeholder="Enter crops for which this land is best">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Major Crops Of Land Area</label>
+                            <label class="col-sm-2 control-label">Major Fruit And Crops of Area</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="textarea" name="land_major_crops"
-                                       placeholder="Enter major crops of land area">
+                                     required="required"   placeholder="Enter Major Fruit And Crops of Area">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Average Yield/acre</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="land_yield"
-                                       placeholder="Enter average yield per acre">
+                                    required="required" maxlength="25"     placeholder="Enter average yield per acre">
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Average Price/acre</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" type="text" name="land_average_price"
-                                       placeholder="Enter average price per acre">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Phone #</label>
-                            <div class="col-sm-10">
-                                <input class="form-control" type="text" name="phone"
-                                       placeholder="Enter phone number">
-                            </div>
-                        </div>
+
                         <div class="form-group">
                             <label class="col-sm-2 control-label">Status</label>
                             <div class="col-sm-10">
-                                <select name="status" id="" class="form-control">
+                                <select name="status" id="" class="form-control"  required="required"  >
                                     <option value="">Select Status</option>
                                     <option value="pending">pending</option>
                                     <option value="processed">processed</option>
@@ -369,7 +374,7 @@ get_footer();
                             </div>
                         </div>
 
-                        <input type="hidden" name="p_type" value="land">
+                        <input type="hidden" name="p_type" value="fruitfarm">
                         <div class="modal-footer">
                             <div class="form-group">
                                 <div class=" col-sm-offset-10 col-sm-2">
@@ -399,7 +404,7 @@ get_footer();
             <div class="modal-header bg-primary">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                         class="glyphicon glyphicon-remove"></span></button>
-                <h4 class="modal-title" id="gridSystemModalLabel">Detail Of Agricultural Land  </h4>
+                <h4 class="modal-title" id="gridSystemModalLabel">Detail Of Fruit Farm </h4>
             </div>
             <div class="modal-body">
                 <table id="table-2" border="1">
@@ -410,9 +415,12 @@ get_footer();
                     <tr>
                         <td class="mytd">Phone</td> <td id="phone" class="mytd2"></td>
                     </tr>
-                   <tr> <td colspan="2" style="background-color:  #799ec5;color:#fff;">About Land</td></tr>
+                   <tr> <td colspan="2" style="background-color:  #799ec5;color:#fff;">About Fruit Farm</td></tr>
                     <tr>
-                        <td class="mytd">Land</td> <td id="products" class="mytd2"></td>
+                        <td class="mytd">Fruit Farm</td> <td id="products" class="mytd2"></td>
+                    </tr>
+                    <tr>
+                        <td class="mytd">Fruit</td> <td id="fruit" class="mytd2"></td>
                     </tr>
                     <tr>
                         <td class="mytd">City</td> <td id="location" class="mytd2"></td>
@@ -424,29 +432,25 @@ get_footer();
                         <td class="mytd">Distance From City</td> <td id="land_distance" class="mytd2"></td>
                     </tr>
                     <tr>
-                        <td class="mytd">Land For</td> <td id="land_for" class="mytd2"></td>
+                        <td class="mytd">Fruit Farm For</td> <td id="land_for" class="mytd2"></td>
                     </tr>
                     <tr>
-                        <td class="mytd">Land Area</td> <td id="area" class="mytd2"></td>
+                        <td class="mytd">Fruit Farm Area</td> <td id="area" class="mytd2"></td>
                     </tr>
 
                     <tr>
-                        <td class="mytd">Price</td> <td id="price" class="mytd2"></td>
+                        <td class="mytd">Estimate Price</td> <td id="price" class="mytd2"></td>
                     </tr>
-                    <tr>
-                        <td class="mytd">Average Price In Area</td> <td id="land_average_price" class="mytd2"></td>
-                    </tr>
+
                     <tr>
                         <td class="mytd">Water Type</td> <td id="land_water_type" class="mytd2"></td>
                     </tr>
+
                     <tr>
-                        <td class="mytd">Land Best For Crops</td> <td id="land_best_products" class="mytd2"></td>
+                        <td class="mytd">Major Fruits And Crops Of Area</td> <td id="land_major_crops" class="mytd2"></td>
                     </tr>
                     <tr>
-                        <td class="mytd">Major Crops Of Area</td> <td id="land_major_crops" class="mytd2"></td>
-                    </tr>
-                    <tr>
-                        <td class="mytd">Crops Yield</td> <td id="land_yield" class="mytd2"></td>
+                        <td class="mytd">Fruit Yield/acre</td> <td id="land_yield" class="mytd2"></td>
                     </tr>
 
                     <tr>

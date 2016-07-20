@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
         return t.replace('The location could not be found.', '');
     });
     $('#table1').DataTable();
-    $('#machinery').DataTable();
+    $('.machinery, #machinery').DataTable();
 
 // datatable placeholder
     $('div.dataTables_filter input').attr('placeholder', 'Search Any thing');

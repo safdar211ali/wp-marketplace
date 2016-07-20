@@ -1,4 +1,7 @@
 <?php
+/* Template Name: Mainpage */
+?>
+<?php
 
 get_header();
 ?>
@@ -39,11 +42,7 @@ get_header();
                             $url = site_url('/' . $category_obj->slug);
                         }elseif ($category_obj->slug == 'goldsilver') {
                             $url = site_url('/' . $category_obj->slug);
-                        }elseif ($category_obj->slug == 'frontuserdatamachinery') {
-                            $url = site_url('/' . $category_obj->slug);
-                        }elseif ($category_obj->slug == 'frontuserland') {
-                            $url = site_url('/' . $category_obj->slug);
-                        }elseif ($category_obj->slug == 'frontuserfruitfarm') {
+                        }elseif ($category_obj->slug == 'users-products') {
                             $url = site_url('/' . $category_obj->slug);
                         }elseif ($category_obj->slug == 'currencyrates') {
                             $url = 'http://www.forex.pk/open_market_rates.asp';

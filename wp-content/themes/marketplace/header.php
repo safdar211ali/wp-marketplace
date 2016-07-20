@@ -13,6 +13,8 @@
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery-ui.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/freelancer.css" rel="stylesheet">
@@ -30,6 +32,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  
 <?php wp_head(); ?>
 </head>
 
@@ -55,16 +58,34 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
+               <?php $c_user = wp_get_current_user();?>
+
+                <?php if($c_user->user_login !=null):?>
+                <?php if(is_home()):?>
                 <li class="page-scroll">
-                    <a href="<?php echo get_home_url(); ?>"><span style="font-size: 20px;" class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span></a>
+                    <a href="/wp/dashboard">Dashboard</a>
+                </li>
+                <?php endif;?>
+                <?php endif;?>
+                <?php if(!is_home()):?>
+                <li class="page-scroll">
+                    <a href="<?php echo get_home_url(); ?>">Home Page</a>
 
                 </li>
+                <?php endif;?>
                 <li class="page-scroll">
                     <a href="#about">About</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="/wp/contact">Contact</a>
                 </li>
+                <?php if($c_user->user_login !=null):?>
+                <li class="page-scroll">
+                    <a href="/wp/wp-login.php?action=logout&redirect_to=/wp">
+                        <span class="glyphicon glyphicon-log-out">Logout</span>
+                    </a>
+                </li>
+                <?php endif;?>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
