@@ -4,16 +4,7 @@ Author: Safdar Ali
 Version: 1.0
 */
 
-.ur-font {
-    font-family: customfonts;
-    font-size: medium;
-}
 
-.ur-rtl {
-    direction: rtl;
-    font-family: customfonts;
-    font-size: medium;
-}
 
 .navbar-inverse {
     opacity: .7;
@@ -121,3 +112,4 @@ table, td {
 .table-bg{
     box-shadow: 0 0 8px #a8a8a8;
 }
+

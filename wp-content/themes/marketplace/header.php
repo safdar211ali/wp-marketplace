@@ -74,7 +74,7 @@
                 </li>
                 <?php endif;?>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="/wp/about">About</a>
                 </li>
                 <li class="page-scroll">
                     <a href="/wp/contact">Contact</a>

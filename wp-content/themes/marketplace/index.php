@@ -42,6 +42,10 @@ get_header();
                             $url = site_url('/' . $category_obj->slug);
                         }elseif ($category_obj->slug == 'goldsilver') {
                             $url = site_url('/' . $category_obj->slug);
+                        } elseif ($category_obj->slug == 'oil') {
+                            $url = site_url('/' . $category_obj->slug);
+                        }elseif ($category_obj->slug == 'fertilizers-pesticides') {
+                            $url = site_url('/' . $category_obj->slug);
                         }elseif ($category_obj->slug == 'users-products') {
                             $url = site_url('/' . $category_obj->slug);
                         }elseif ($category_obj->slug == 'currencyrates') {
