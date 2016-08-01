@@ -20,7 +20,8 @@
                     ?>
 <!--                     when all posts are fetched-->
                     <div class="form-group">
-                    <p class="text-center">List of <span style="color: #337AB7;"><?php echo get_term($category_ID)->name;?></span></p>
+
+                        <p class="text-center">Prices Of <span style="color: #337AB7;"><?php echo get_term($category_ID)->name;?> in Rs/100Kg  </span></p>
 
                         <select id="optlist" class="form-control"   onchange="location = this.options[this.selectedIndex].value;">
                             <option value="">Select City شہر منتخب کریں</option>

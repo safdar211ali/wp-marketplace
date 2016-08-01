@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dddc961e-c2fb-4502-bcac-39deba813bde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/about.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/css/images-responsive-thumbnail-slider-plus-lighbox-style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/css/images-responsive-thumbnail-slider-plus-lighbox-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/js/images-responsive-thumbnail-slider-plus-lightbox-jc.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/js/images-responsive-thumbnail-slider-plus-lightbox-jc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/contact.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/style.css" />
@@ -39,26 +37,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="48" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+            <state relative-caret-position="282">
+              <caret line="72" column="73" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="73" />
               <folding>
-                <marker date="1469193627672" expanded="true" signature="471:683" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+                <marker date="1469267899628" expanded="true" signature="472:684" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php">
+      <file leaf-file-name="steelpricelist_page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/steelpricelist_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <marker date="1469194913136" expanded="true" signature="295:507" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,16 +127,16 @@
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/dashboard_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/contact_page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/usersfruitfarm_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/usersland_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/usersmachinery_page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/contact.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/about.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" />
       </list>
     </option>
   </component>
@@ -174,7 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,7 +255,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,7 +457,14 @@
       <workItem from="1469011029684" duration="1743000" />
       <workItem from="1469036635945" duration="4045000" />
       <workItem from="1469093209843" duration="7698000" />
-      <workItem from="1469183952258" duration="7483000" />
+      <workItem from="1469183952258" duration="7708000" />
+      <workItem from="1469263735454" duration="5419000" />
+      <workItem from="1469272046496" duration="605000" />
+      <workItem from="1469362615574" duration="306000" />
+      <workItem from="1469445487923" duration="72000" />
+      <workItem from="1469887545023" duration="777000" />
+      <workItem from="1470062743425" duration="2292000" />
+      <workItem from="1470074511771" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="routine">
       <created>1464659279155</created>
@@ -523,17 +536,24 @@
       <option name="project" value="LOCAL" />
       <updated>1469011535313</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="routine">
+      <created>1469195040065</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1469195040066</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455561000" />
+    <option name="totallyTimeSpent" value="466544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1362" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20395738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19939117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -595,13 +615,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/content-page.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/frontuserdataform_page.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/page.php">
@@ -612,13 +625,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersmachinery_page.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/steelpricelist_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/stockexchange_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -643,13 +649,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-user-manager/assets/css/wp_user_manager.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-user-manager/assets/css/wp_user_manager_admin_general.css">
@@ -792,20 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <marker date="1467478959285" expanded="true" signature="1187:1226" ph="DELETE FROM " />
-            <marker date="1467478959285" expanded="true" signature="1187:1227" ph="DELETE FROM " />
-            <marker date="1467478959285" expanded="true" signature="1187:1240" ph="DELETE FROM " />
-            <marker date="1467478959285" expanded="true" signature="1187:1241" ph="DELETE FROM " />
-            <marker date="1467478959285" expanded="true" signature="1347:1401" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478959285" expanded="true" signature="1564:1618" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478959285" expanded="true" signature="2882:2912" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478959285" expanded="true" signature="2882:2913" ph="SELECT owner... wp_frontuserdata" />
-            <marker date="1467478959285" expanded="true" signature="2882:2937" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478959285" expanded="true" signature="2882:2950" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478959285" expanded="true" signature="2882:2951" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478959285" expanded="true" signature="2882:2973" ph="SELECT * FRO... wp_frontuserdata" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,10 +829,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/archive.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="1796" column="0" selection-start-line="1796" selection-start-column="0" selection-end-line="1808" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersland_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="99" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <marker date="1469269851940" expanded="true" signature="345:557" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/currencyrates_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -858,102 +909,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="1796" column="0" selection-start-line="1796" selection-start-column="0" selection-end-line="1808" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersland_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="99" selection-end-column="2" />
-          <folding>
-            <marker date="1467478870249" expanded="true" signature="1938:1991" ph="DELETE FROM " />
-            <marker date="1467478870249" expanded="true" signature="2097:2151" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478870249" expanded="true" signature="2315:2369" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478870249" expanded="true" signature="3688:3718" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478870249" expanded="true" signature="3688:3738" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1467478870249" expanded="true" signature="3688:3774" ph="SELECT * FRO... wp_frontuserdata" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="528">
           <caret line="31" column="146" selection-start-line="31" selection-start-column="146" selection-end-line="31" selection-end-column="146" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/contact.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="e#593#650#0#HTML" expanded="true" />
-            <element signature="e#696#726#0#HTML" expanded="true" />
-            <element signature="e#758#782#0#HTML" expanded="true" />
-            <element signature="e#1229#1254#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="48" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        <state relative-caret-position="282">
+          <caret line="72" column="73" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="73" />
           <folding>
-            <marker date="1469193627672" expanded="true" signature="471:683" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1469267899628" expanded="true" signature="472:684" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/steelpricelist_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <marker date="1469194913136" expanded="true" signature="295:507" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

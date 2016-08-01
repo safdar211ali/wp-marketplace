@@ -22,6 +22,7 @@ get_header();
 
             <div class="row">
 
+
                 <?php
                 global $wpdb;
 
@@ -91,6 +92,7 @@ get_header();
         </div>
 
     </div>
+
 </div>
 
 
