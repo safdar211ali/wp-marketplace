@@ -69,13 +69,18 @@ get_header();
                                     <?php
                                     }
                                     ?>
+                                    <?php $cattitle = get_field('cattitle', 'product_category_' . $category_obj->term_id); ?>
+
                                     <button type="button" class="btn btn-default">
+                                        <div style="font-family:'Noto Nastaliq Urdu Draft';font-size: 18px;margin-bottom: 10px;" class="portfolio-details "><?php echo $cattitle; ?></div>
+                                        <div class="portfolio-details ">
+                                            <?php echo $category_obj->name; ?>
+                                        </div>
+
                                         <?php $result = get_field('catimg', 'product_category_' . $category_obj->term_id); ?>
-                                        <img src=" <?php echo $result[url]; ?>" class="img-responsive" alt="...">
+                                        <img src=" <?php echo $result[url]; ?>" width="170" height="130" alt="...">
                                     </button>
-                                    <div class="portfolio-details ">
-                                        <?php echo $category_obj->name; ?>
-                                    </div>
+
                                 </a>
                     </div>
                     <?php

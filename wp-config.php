@@ -17,16 +17,17 @@
  *
  * @package WordPress
  */
-
 // ** MySQL settings - You can get this info from your web host ** //
+
+
 /** The name of the database for WordPress */
-define('DB_NAME', 'market');
+define('DB_NAME', 'tijaratp_market');
 
 /** MySQL database username */
-define('DB_USER', 'safdar');
+define('DB_USER', 'tijaratp_safdar');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'safdar');
+define('DB_PASSWORD', 'o$Wqg)n7]Gwd');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -79,12 +80,12 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-
+define('WP_MEMORY_LIMIT', '256M');
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
