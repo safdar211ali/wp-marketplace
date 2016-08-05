@@ -21,13 +21,13 @@
 
 
 /** The name of the database for WordPress */
-define('DB_NAME', 'tijaratp_market');
+define('DB_NAME', 'market');
 
 /** MySQL database username */
-define('DB_USER', 'tijaratp_safdar');
+define('DB_USER', 'safdar');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'o$Wqg)n7]Gwd');
+define('DB_PASSWORD', 'safdar');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -80,7 +80,6 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-define('WP_MEMORY_LIMIT', '256M');
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
