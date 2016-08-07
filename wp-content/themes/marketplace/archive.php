@@ -1,4 +1,7 @@
 <?php get_header(); ?>
+
+<div class="hidden-lg hidden-md  top-marg">
+</div>
 <div class="container">
     <div class="row">
         <div class="col-md-9">
@@ -24,7 +27,7 @@
                         <p class="text-center">Prices Of <span style="color: #337AB7;"><?php echo get_term($category_ID)->name;?> in Rs/100Kg  </span></p>
 
                         <select id="optlist" class="form-control"   onchange="location = this.options[this.selectedIndex].value;">
-                            <option value="">Select City شہر منتخب کریں</option>
+                            <option value="">Select City </option>
                             <?php
                             foreach ($subcats as $cats) {
                                 ?>
@@ -66,7 +69,7 @@
 
                         <select id="optlist2" class="form-control"
                                 onchange="location = this.options[this.selectedIndex].value;">
-                            <option value="">Select City شہر منتخب کریں</option>
+                            <option value="">Select City </option>
                             <?php
                             foreach ($subcats as $cats) {
                                 ?>

@@ -5,6 +5,12 @@ Version: 1.0
 */
 
 
+
+
+    .top-marg {
+        margin-top: 100px;
+    }
+
 .navbar-inverse {
     opacity: .7;
 }

@@ -84,7 +84,8 @@ get_header();
 <?php
 /* Template Name: usersmachinery */
 ?>
-
+<div class="hidden-lg hidden-md  top-marg">
+</div>
 <div class="container ">
     <div class="row">
         <div class="col-md-12">
