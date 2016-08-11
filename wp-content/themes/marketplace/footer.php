@@ -56,6 +56,7 @@
 
 
 <!-- jQuery -->
+
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->

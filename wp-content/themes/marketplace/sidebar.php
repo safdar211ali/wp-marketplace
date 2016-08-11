@@ -1,4 +1,4 @@
-<?php   echo do_shortcode('[Social9_Share]'); ?>
+
 <?php if (!is_home() && !is_page('mainpage') && !is_page('contact')) : ?>
 
 <div class="panel panel-primary">

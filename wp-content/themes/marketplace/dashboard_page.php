@@ -26,41 +26,35 @@
             </div>
             <div class="col-md-2">
                 <a href="/wp/frontuserdatamachinery">
-
                     <button type="button" class="btn btn-default">
-                        <div class="portfolio-details ">
-                            Manage Agricultural Machinery
-                        </div>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/users/machinery.png" alt="machinery"
-                             width="170" height="130">
+                             width="150" height="150">
                     </button>
-
+                    <div class="portfolio-details ">
+                        Manage Agricultural Machinery
+                    </div>
                 </a>
             </div>
             <div class="col-md-2">
                 <a href="/wp/frontuserland">
-
                     <button type="button" class="btn btn-default">
-                        <div class="portfolio-details ">
-                            Manage Agricultural Land
-                        </div>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/users/land.png" alt="agri land"
-                             width="170" height="130">
+                             width="150" height="150">
                     </button>
-
+                    <div class="portfolio-details ">
+                        Manage Agricultural Land
+                    </div>
                 </a>
             </div>
             <div class="col-md-2">
                 <a href="/wp/frontuserfruitfarm">
-
                     <button type="button" class="btn btn-default">
-                        <div class="portfolio-details ">
-                            Manage Fruit Farm
-                        </div>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/users/fruit.png" alt="fruit farm"
-                             width="170" height="130">
+                             width="150" height="150">
                     </button>
-
+                    <div class="portfolio-details ">
+                        Manage Fruit Farm
+                    </div>
                 </a>
             </div>
             <div class="col-md-3">

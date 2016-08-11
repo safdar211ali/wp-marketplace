@@ -5,6 +5,8 @@
 
 get_header();
 ?>
+    <div class="hidden-lg hidden-md  top-marg">
+    </div>
     <div class="container">
         <div class="row">
 
@@ -12,7 +14,7 @@ get_header();
                 <p>
                     <?php
 
-                    echo do_shortcode('[contact-form-7-rename id="532" title="Contact form 1"]');
+                    echo do_shortcode('[contact-form-7 id="584" title="Untitled"]');
                     ?>
                 </p>
 

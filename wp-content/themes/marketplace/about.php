@@ -9,6 +9,8 @@
 
 get_header();
 ?>
+<div class="hidden-lg hidden-md  top-marg">
+</div>
 <div class="container">
     <div class="row">
 
