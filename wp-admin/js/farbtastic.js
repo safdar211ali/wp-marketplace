@@ -21,7 +21,7 @@ $._farbtastic = function (container, callback) {
   var fb = this;
 
   // Insert markup
-  $(container).html('<div class="farbtastic"><div class="color"></div><div class="wheel"></div><div class="overlay"></div><div class="h-marker marker"></div><div class="sl-marker marker"></div></div>');
+  $(container).html('<div class="farbtastic"><div class="color"></div><div class="wheel"></div><div class="overlay"></div><div class="logo.png-marker marker"></div><div class="sl-marker marker"></div></div>');
   var e = $('.farbtastic', container);
   fb.wheel = $('.wheel', container).get(0);
   // Dimensions
@@ -166,7 +166,7 @@ $._farbtastic = function (container, callback) {
   fb.updateDisplay = function () {
     // Markers
     var angle = fb.hsl[0] * 6.28;
-    $('.h-marker', e).css({
+    $('.logo.png-marker', e).css({
       left: Math.round(Math.sin(angle) * fb.radius + fb.width / 2) + 'px',
       top: Math.round(-Math.cos(angle) * fb.radius + fb.width / 2) + 'px'
     });

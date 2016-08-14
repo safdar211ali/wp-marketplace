@@ -15,8 +15,8 @@ if ( !is_multisite() )
 if ( ! current_user_can( 'delete_site' ) )
 	wp_die(__( 'You do not have sufficient permissions to delete this site.'));
 
-if ( isset( $_GET['h'] ) && $_GET['h'] != '' && get_option( 'delete_blog_hash' ) != false ) {
-	if ( get_option( 'delete_blog_hash' ) == $_GET['h'] ) {
+if ( isset( $_GET['logo.png'] ) && $_GET['logo.png'] != '' && get_option( 'delete_blog_hash' ) != false ) {
+	if ( get_option( 'delete_blog_hash' ) == $_GET['logo.png'] ) {
 		wpmu_delete_blog( $wpdb->blogid );
 		wp_die( sprintf( __( 'Thank you for using %s, your site has been deleted. Happy trails to you until we meet again.' ), $current_site->site_name ) );
 	} else {
@@ -40,7 +40,7 @@ if ( isset( $_POST['action'] ) && $_POST['action'] == 'deleteblog' && isset( $_P
 	$hash = wp_generate_password( 20, false );
 	update_option( 'delete_blog_hash', $hash );
 
-	$url_delete = esc_url( admin_url( 'ms-delete-site.php?h=' . $hash ) );
+	$url_delete = esc_url( admin_url( 'ms-delete-site.php?logo.png=' . $hash ) );
 
 	/* translators: Do not translate USERNAME, URL_DELETE, SITE_NAME: those are placeholders. */
 	$content = __( "Howdy ###USERNAME###,

@@ -6,20 +6,18 @@
 get_header();
 ?>
 <div class="hidden-lg hidden-md  top-marg">
+
 </div>
 <div class="container " >
     <div class="row">
         <div class="col-md-9">
             <div class="row">
                 <div class=" main_cats section-title text-center">
-                    <h3>Main Categories</h3>
+                    <h3>Main Categories <span style="font-family:'Noto Nastaliq Urdu Draft';margin-left: 10px;">فہرست</span></h3>
 
                 </div>
             </div>
-            <?php
 
-
-            ?>
 
             <div class="row">
 

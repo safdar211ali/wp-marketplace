@@ -3102,7 +3102,7 @@ class ET_Monarch {
 				break;
 
 				case 'newsvine' :
-					$link = sprintf( 'http://www.newsvine.com/_tools/seed&save?u=%1$s&h=%2$s',
+					$link = sprintf( 'http://www.newsvine.com/_tools/seed&save?u=%1$s&logo.png=%2$s',
 						esc_attr( $permalink ),
 						esc_attr( $title )
 					);

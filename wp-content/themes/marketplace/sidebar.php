@@ -1,9 +1,15 @@
 
+
+
+    <?php echo do_shortcode('[apss_share]');?>
 <?php if (!is_home() && !is_page('mainpage') && !is_page('contact')) : ?>
 
 <div class="panel panel-primary">
-    <div class="panel-heading"><i class="fa fa-windows" aria-hidden="true"></i>
-        Menu
+    <div class="panel-heading"><i class="fa fa-windows" aria-hidden="true" style="font-size: 20px;"></i>
+      <span style="font-size: 20px;font-weight: bold;"> Menu</span>  <span style="font-family:'Noto Nastaliq Urdu Draft';font-size: 22px;font-weight: bold;margin-left: 10px;">فہرست</span>
+
+                <a href="<?php echo get_home_url(); ?>"><i  class="fa fa-home" aria-hidden="true" style="font-size: 24px;color: #FFFFFF;margin-left: 40px;"></i></a>
+
     </div>
 
     <div class="list-group ">
@@ -61,7 +67,9 @@
                                 <?php $result = get_field('catimg', 'product_category_' . $category_obj->term_id); ?>
                                 <img src=" <?php echo $result[url]; ?>" class="img-responsive" alt="..." width="100" height="100">
                             </div>
-                            <div class="col-md-8" style="padding-top: 20px;">
+                            <?php $cattitle = get_field('cattitle', 'product_category_' . $category_obj->term_id); ?>
+                            <div class="col-md-8" >
+                                <div style="font-family:'Noto Nastaliq Urdu Draft';margin-bottom: 5px;"><?php echo $cattitle; ?></div>
                                 <?php echo $category_obj->name; ?>
                             </div>
                         </div>

@@ -20,7 +20,7 @@ final class Wunderground_Ajax {
 
 		$url = add_query_arg( array(
 			'query' => urlencode( stripslashes_deep( $_REQUEST['query'] ) ),
-			'h' => 0, // No hurricanes, please.
+			'logo.png' => 0, // No hurricanes, please.
 			'c' => $country,
 			'type' => 'city',
 		), 'http://autocomplete.wunderground.com/aq' );

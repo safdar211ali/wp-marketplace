@@ -730,7 +730,7 @@ function wp_save_image( $post_id ) {
 		$sX = $size['width'];
 		$sY = $size['height'];
 
-		// Check if it has roughly the same w / h ratio.
+		// Check if it has roughly the same w / logo.png ratio.
 		$diff = round($sX / $sY, 2) - round($fwidth / $fheight, 2);
 		if ( -0.1 < $diff && $diff < 0.1 ) {
 			// Scale the full size image.
@@ -876,7 +876,7 @@ function wp_save_image( $post_id ) {
 				if ( ! empty( $meta['sizes']['thumbnail'] ) && $thumb = $meta['sizes']['thumbnail'] ) {
 					$return->thumbnail = path_join( dirname($file_url), $thumb['file'] );
 				} else {
-					$return->thumbnail = "$file_url?w=128&h=128";
+					$return->thumbnail = "$file_url?w=128&logo.png=128";
 				}
 			}
 		}

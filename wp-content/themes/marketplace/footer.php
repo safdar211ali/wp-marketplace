@@ -6,31 +6,39 @@
             <div class="row">
                 <div class="footer-col col-md-4">
                     <h3>Location</h3>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-                </div>
+                    <p>
+                        <span style="line-height:5px;">
+                    New Ghala Mandi Khan Pur Katora<br>
+                    District Rahim Yar Khan,<br>
+                    Phone: 03337477433<br>
+                    Email: sajidshakoor@gmail.com
+                    </p>
+                    </div>
                 <div class="footer-col col-md-4">
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="https://web.facebook.com/Tijarat-online-1501493050181577/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/TijaratPk" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            <a href="https://www.linkedin.com/in/tijarat-trading-147254125?trk=hp-identity-name" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                         </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                        </li>
+
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>About Freelancer</h3>
-                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    <h3 style="font-family: 'Nafees Nastaleeq'"> ویب سائٹ کا تعارف</h3>
+                    <p style="font-family: 'Nafees Nastaleeq';line-height:200%;font-size: 18px;" >
+                    اس سائٹ میں آپ مختلف شہروں میں مختلف اشیاء کے روزانہ کے ریٹ دیکھ سکتے ہیں-
+
+
+                        اس کے علاوہ کسی بھی شہر کا موسم دیکھ سکتے ہیں۔
+                        اپنی مختلف زرعی اشیاء کو بیچنے کے لیے لوگ ان ہو کر سائیٹ میں لگا سکتے ہیں اور یہ سب کچھ فری ہے۔
+                    </P>
                 </div>
             </div>
         </div>
@@ -39,7 +47,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Your Website 2014
+                    Copyright &copy;  2016
                 </div>
             </div>
         </div>

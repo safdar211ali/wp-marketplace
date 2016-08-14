@@ -201,7 +201,7 @@
       return createElement(nodeName, ownerDocument, data);
     };
 
-    ownerDocument.createDocumentFragment = Function('h,f', 'return function(){' +
+    ownerDocument.createDocumentFragment = Function('logo.png,f', 'return function(){' +
       'var n=f.cloneNode(),c=n.createElement;' +
       'h.shivMethods&&(' +
         // unroll the `createElement` calls

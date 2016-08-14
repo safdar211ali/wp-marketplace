@@ -466,7 +466,7 @@ function wpautop( $pee, $br = true ) {
 	// Change multiple <br>s into two line breaks, which will turn into paragraphs.
 	$pee = preg_replace('|<br\s*/?>\s*<br\s*/?>|', "\n\n", $pee);
 
-	$allblocks = '(?:table|thead|tfoot|caption|col|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|form|map|area|blockquote|address|math|style|p|h[1-6]|hr|fieldset|legend|section|article|aside|hgroup|header|footer|nav|figure|figcaption|details|menu|summary)';
+	$allblocks = '(?:table|thead|tfoot|caption|col|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|form|map|area|blockquote|address|math|style|p|logo.png[1-6]|hr|fieldset|legend|section|article|aside|hgroup|header|footer|nav|figure|figcaption|details|menu|summary)';
 
 	// Add a single line break above block-level opening tags.
 	$pee = preg_replace('!(<' . $allblocks . '[\s/>])!', "\n$1", $pee);
@@ -1187,8 +1187,8 @@ function remove_accents( $string ) {
 		chr(196).chr(158) => 'G', chr(196).chr(159) => 'g',
 		chr(196).chr(160) => 'G', chr(196).chr(161) => 'g',
 		chr(196).chr(162) => 'G', chr(196).chr(163) => 'g',
-		chr(196).chr(164) => 'H', chr(196).chr(165) => 'h',
-		chr(196).chr(166) => 'H', chr(196).chr(167) => 'h',
+		chr(196).chr(164) => 'H', chr(196).chr(165) => 'logo.png',
+		chr(196).chr(166) => 'H', chr(196).chr(167) => 'logo.png',
 		chr(196).chr(168) => 'I', chr(196).chr(169) => 'i',
 		chr(196).chr(170) => 'I', chr(196).chr(171) => 'i',
 		chr(196).chr(172) => 'I', chr(196).chr(173) => 'i',

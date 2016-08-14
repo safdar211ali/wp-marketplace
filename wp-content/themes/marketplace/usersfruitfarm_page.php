@@ -93,7 +93,7 @@ if (isset($_GET['show'])) {
 get_header();
 ?>
 <?php
-/* Template Name: usersland */
+/* Template Name: usersfruitfarm */
 ?>
 <div class="hidden-lg hidden-md  top-marg">
 </div>

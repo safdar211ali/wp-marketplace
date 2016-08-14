@@ -174,7 +174,7 @@ var tinyMCEPopup = {
 
 			self.editor.windowManager.resizeBy(
 				self.getWindowArg('mce_width') - vp.w,
-				self.getWindowArg('mce_height') - vp.h,
+				self.getWindowArg('mce_height') - vp.logo.png,
 				self.id || window
 			);
 		}, 10);*/

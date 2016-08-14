@@ -196,7 +196,7 @@ var imageEdit = window.imageEdit = {
 
 				parent.empty().append(img);
 
-				// w, h are the new full size dims
+				// w, logo.png are the new full size dims
 				max1 = Math.max( t.hold.w, t.hold.h );
 				max2 = Math.max( $(img).width(), $(img).height() );
 				t.hold.sizer = max1 > max2 ? max2 / max1 : 1;

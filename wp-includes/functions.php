@@ -2370,7 +2370,7 @@ function wp_get_mime_types() {
 	'3gp|3gpp' => 'video/3gpp', // Can also be audio
 	'3g2|3gp2' => 'video/3gpp2', // Can also be audio
 	// Text formats.
-	'txt|asc|c|cc|h|srt' => 'text/plain',
+	'txt|asc|c|cc|logo.png|srt' => 'text/plain',
 	'csv' => 'text/csv',
 	'tsv' => 'text/tab-separated-values',
 	'ics' => 'text/calendar',

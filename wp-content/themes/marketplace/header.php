@@ -53,7 +53,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo get_home_url(); ?>">Market Rates</a>
+            <a style="margin-top: 0;" class="navbar-brand" href="<?php echo get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="no logo found."></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,31 +62,35 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
+
+
                 <?php $c_user = wp_get_current_user(); ?>
 
                 <?php if ($c_user->user_login != null): ?>
                     <?php if (is_home()): ?>
                         <li class="">
-                            <a href="/wp/dashboard">Dashboard</a>
+                            <a href="/wp/dashboard">Dashboard<br><i style="margin-left: 30px;" class="fa fa-cogs fa-2x" aria-hidden="true"></i></a>
                         </li>
                     <?php endif; ?>
                 <?php endif; ?>
                 <?php if (!is_home()): ?>
                     <li class="">
-                        <a href="<?php echo get_home_url(); ?>">Home Page</a>
+                        <a href="<?php echo get_home_url(); ?>">Home Page<br><i style="margin-left: 30px;" class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+
 
                     </li>
                 <?php endif; ?>
                 <li class="">
-                    <a href="/wp/about">About</a>
+                    <a href="/wp/about">About<br><i style="margin-left: 20px;" class="fa fa-user fa-2x" aria-hidden="true"></i></a>
                 </li>
                 <li class="">
-                    <a href="/wp/contact">Contact</a>
+                    <a href="/wp/contact">Contact<br><i style="margin-left: 20px;" class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                    </a>
                 </li>
                 <?php if ($c_user->user_login != null): ?>
                     <li class="">
                         <a href="/wp/wp-login.php?action=logout&redirect_to=/wp">
-                            <span class="glyphicon glyphicon-log-out">Logout</span>
+                            Logout<br><i style="margin-left: 20px;" class="fa fa-sign-out fa-2x" aria-hidden="true"></i>
                         </a>
                     </li>
                 <?php endif; ?>
@@ -104,51 +108,24 @@
         echo do_shortcode('[print_responsive_slider_plus_lightbox]');
 
         ?>
+
+
     </div>
+<div style="width: 370px;" class="pull-right">
+    <script>
+        (function() {
+            var cx = '001796411992584455474:vzxvdunmk-g';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <gcse:search></gcse:search>
+</div>
 
-    <!--    --><?php //wp_nav_menu(); ?>
-
-    <!--<div id="carousel-example" class="carousel slide" data-ride="carousel">-->
-    <!--    <ol class="carousel-indicators">-->
-    <!--        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>-->
-    <!--        <li data-target="#carousel-example" data-slide-to="1"></li>-->
-    <!--        <li data-target="#carousel-example" data-slide-to="2"></li>-->
-    <!--    </ol>-->
-    <!---->
-    <!--    <div class="carousel-inner">-->
-    <!--        <div class="item active">-->
-    <!--            <a href="#"><img src="-->
-    <?php //echo get_stylesheet_directory_uri(); ?><!--/img/carousel/1.jpg" /></a>-->
-    <!--            <div class="carousel-caption">-->
-    <!--                <h3>خانپور </h3>-->
-    <!--                <p>اشیاء کے نئے ریٹ دیکھیں۔</p>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        <div class="item">-->
-    <!--            <a href="#"><img src="-->
-    <?php //echo get_stylesheet_directory_uri(); ?><!--/img/carousel/2.jpg" /></a>-->
-    <!--            <div class="carousel-caption">-->
-    <!--                <h3>خانپور </h3>-->
-    <!--                <p>اشیاء کے نئے ریٹ دیکھیں۔</p>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        <div class="item">-->
-    <!--            <a href="#"><img src="-->
-    <?php //echo get_stylesheet_directory_uri(); ?><!--/img/carousel/3.jpg" /></a>-->
-    <!--            <div class="carousel-caption">-->
-    <!--                <h3>خانپور </h3>-->
-    <!--                <p>اشیاء کے نئے ریٹ دیکھیں۔</p>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!---->
-    <!--    <a class="left carousel-control" href="#carousel-example" data-slide="prev">-->
-    <!--        <span class="glyphicon glyphicon-chevron-left"></span>-->
-    <!--    </a>-->
-    <!--    <a class="right carousel-control" href="#carousel-example" data-slide="next">-->
-    <!--        <span class="glyphicon glyphicon-chevron-right"></span>-->
-    <!--    </a>-->
-    <!--</div>-->
 </header>
 
 

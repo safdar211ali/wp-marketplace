@@ -168,7 +168,7 @@ function wunderground_get_icons( $value_is_path = true ) {
 			__('Cartoon', 'wunderground') => 'e',
 			__('Mobile', 'wunderground') => 'f',
 			__('Simple', 'wunderground') => 'g',
-			__('Contemporary', 'wunderground') => 'h',
+			__('Contemporary', 'wunderground') => 'logo.png',
 		);
 	}
 

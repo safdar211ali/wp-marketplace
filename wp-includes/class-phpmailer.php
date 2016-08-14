@@ -3707,7 +3707,7 @@ class PHPMailer
             $this->DKIM_selector .
             ";\r\n" .
             "\tt=" . $DKIMtime . '; c=' . $DKIMcanonicalization . ";\r\n" .
-            "\th=From:To:Subject;\r\n" .
+            "\tlogo.png=From:To:Subject;\r\n" .
             "\td=" . $this->DKIM_domain . ';' . $ident . "\r\n" .
             "\tz=$from\r\n" .
             "\t|$to\r\n" .

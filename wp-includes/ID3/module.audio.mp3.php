@@ -252,7 +252,7 @@ class getid3_mp3 extends getid3_handler
 			} elseif ($info['audio']['bitrate_mode'] == 'vbr') {
 
 				// http://gabriel.mp3-tech.org/mp3infotag.html
-				// int    Quality = (100 - 10 * gfp->VBR_q - gfp->quality)h
+				// int    Quality = (100 - 10 * gfp->VBR_q - gfp->quality)logo.png
 
 
 				$LAME_V_value = 10 - ceil($thisfile_mpeg_audio_lame['vbr_quality'] / 10);

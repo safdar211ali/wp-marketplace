@@ -36,7 +36,7 @@ get_header();
                     New Ghala Mandi Khan Pur Katora<br>
                     District Rahim Yar Khan,<br>
                     Phone: 03337477433<br>
-                    Email: sp13rpm047@vcomsats.edu.pk
+                    Email: sajidshakoor@gmail.com
                         </span>
 
 

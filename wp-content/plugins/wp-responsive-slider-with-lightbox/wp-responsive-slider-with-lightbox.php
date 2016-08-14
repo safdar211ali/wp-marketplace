@@ -954,14 +954,14 @@
                     $location='admin.php?page=responsive_thumbnail_slider_with_lightbox_image_management';
                     $title=trim(htmlentities(strip_tags($_POST['imagetitle']),ENT_QUOTES));
                     $imageurl=trim(htmlentities(strip_tags($_POST['imageurl']),ENT_QUOTES));
-                    $createdOn=date('Y-m-d h:i:s');
+                    $createdOn=date('Y-m-d logo.png:i:s');
                     if(function_exists('date_i18n')){
 
                         $createdOn=date_i18n('Y-m-d'.' '.get_option('time_format') ,false,false);
                         if(get_option('time_format')=='H:i')
                             $createdOn=date('Y-m-d H:i:s',strtotime($createdOn));
                         else   
-                            $createdOn=date('Y-m-d h:i:s',strtotime($createdOn));
+                            $createdOn=date('Y-m-d logo.png:i:s',strtotime($createdOn));
 
                        }
 
