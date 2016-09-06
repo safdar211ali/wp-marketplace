@@ -15,7 +15,7 @@
                 $post_type = 'product';
                 $tax = 'product_category';
 
-                $args = array('hierarchical' => 1, 'show_option_none' => '', 'hide_empty' => 0, 'parent' =>
+                $args = array('hierarchical' => 1, 'show_option_none'  => '', 'hide_empty' => 0, 'parent' =>
                     $category_ID, 'taxonomy' => 'product_category', 'orderby' => 'name', 'order' => 'ASC');
 
                 $subcats = get_categories($args);
@@ -43,14 +43,14 @@
                     </div>
                     <?php
                 } else {
-        //  when all posts of a city subcategory are fetched fetched
+        //  when all posts of a city subcategory are fetched
                     $queried_obj = get_queried_object();
                     $parent_cat_ID = $queried_obj->parent;
                     $args = array(
 
                         'hierarchical' => 1,
 
-                        'show_option_none' => '',
+                        'show_option_none'  => '',
 
                         'hide_empty' => 0,
 
@@ -87,6 +87,7 @@
                 }
                 ?>
                 <!--   getting posts title-->
+
                 <table class="table table-bordered table-hover" id="table1">
                     <thead style="color: #337AB7;font-weight: bold;">
                     <tr>
@@ -97,7 +98,8 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <?php
+
+                    <?php  if ( have_posts() ) :
                     while (have_posts()) : the_post();
                         ?>
 
@@ -113,6 +115,7 @@
                         <?php
                         // End the loop.
                     endwhile;
+                    endif;
                     ?>
                     </tbody>
                 </table>

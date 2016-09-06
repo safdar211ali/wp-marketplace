@@ -20,6 +20,7 @@
     <!-- Custom CSS -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/freelancer.css" rel="stylesheet">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/chosen.min.css" rel="stylesheet">
+<!--    <link rel="stylesheet" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">-->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/jquery.dataTables.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -53,7 +54,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a style="margin-top: 0;" class="navbar-brand" href="<?php echo get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="no logo found."></a>
+            <a style="margin-top: 0;" class="navbar-brand" href="<?php echo get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" width="180" height="80" alt="no logo found."></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -111,20 +112,20 @@
 
 
     </div>
-<div style="width: 370px;" class="pull-right">
-    <script>
-        (function() {
-            var cx = '001796411992584455474:vzxvdunmk-g';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
-    <gcse:search></gcse:search>
-</div>
+<!--<div style="width: 370px;" class="pull-right">-->
+<!--    <script>-->
+<!--        (function() {-->
+<!--            var cx = '001796411992584455474:vzxvdunmk-g';-->
+<!--            var gcse = document.createElement('script');-->
+<!--            gcse.type = 'text/javascript';-->
+<!--            gcse.async = true;-->
+<!--            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;-->
+<!--            var s = document.getElementsByTagName('script')[0];-->
+<!--            s.parentNode.insertBefore(gcse, s);-->
+<!--        })();-->
+<!--    </script>-->
+<!--    <gcse:search></gcse:search>-->
+<!--</div>-->
 
 </header>
 

@@ -2,100 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dddc961e-c2fb-4502-bcac-39deba813bde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/img/logo.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/module-loader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/admin/class-activation-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/admin/views/class-activation-settings-view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/assets/css/oss-admin-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/assets/css/oss-form-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/assets/images/cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/assets/images/dropdown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/assets/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/assets/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/module.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-core/oss-core.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/admin/open-social-share-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/admin/open-social-share-advance-settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/admin/views/settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/css/oss-social-sharing-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/css/oss-social-sharing-front.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/os-icon32.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/share-bar-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/share-bar-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/16-h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/16-v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/32-h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/32-v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/hybrid-h-h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/hybrid-h-v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/hybrid-v-h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/hybrid-v-v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/responsive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/single-lg-h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/single-sm-h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/sharing/sprites/lrshare_iconsprite32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/social9-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/white-bg-16-new-whatsapp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/white-bg-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/white-bg-32-new-whatsapp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/images/white-bg-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/js/oss_plugin_notice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/js/oss_share.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/assets/js/oss_share_admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/includes/common/sharing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/includes/horizontal/oss-simplified-social-share-horizontal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/includes/shortcode/shortcode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/includes/vertical/oss-simplified-social-share-vertical.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/includes/widgets/oss-horizontal-share-widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/includes/widgets/oss-vertical-share-widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/install.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/module.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/oss-social-sharing/oss-social-sharing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/social9_share.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/simplified-social-share/uninstall.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/img/chosen-sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/img/logo.png" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-filesystem-direct.php" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-filesystem-direct.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-filesystem-ssh2.php" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-filesystem-ssh2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/image-edit.php" afterPath="$PROJECT_DIR$/wp-admin/includes/image-edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/editor.js" afterPath="$PROJECT_DIR$/wp-admin/js/editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/editor.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/editor.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/farbtastic.js" afterPath="$PROJECT_DIR$/wp-admin/js/farbtastic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/image-edit.js" afterPath="$PROJECT_DIR$/wp-admin/js/image-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/iris.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/iris.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/ms-delete-site.php" afterPath="$PROJECT_DIR$/wp-admin/ms-delete-site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/monarch/monarch.php" afterPath="$PROJECT_DIR$/wp-content/plugins/monarch/monarch.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/css/images-responsive-thumbnail-slider-plus-lighbox-style.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/css/images-responsive-thumbnail-slider-plus-lighbox-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/js/images-responsive-thumbnail-slider-plus-lightbox-jc.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/js/images-responsive-thumbnail-slider-plus-lightbox-jc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/wp-responsive-slider-with-lightbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-responsive-slider-with-lightbox/wp-responsive-slider-with-lightbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wunderground/inc/class-ajax.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wunderground/inc/class-ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wunderground/inc/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wunderground/inc/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/flat/assets/js/html5shiv.js" afterPath="$PROJECT_DIR$/wp-content/themes/flat/assets/js/html5shiv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/flat/assets/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/flat/assets/js/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/flat/class-tgm-plugin-activation.php" afterPath="$PROJECT_DIR$/wp-content/themes/flat/class-tgm-plugin-activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/contact.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/css/chosen.min.css" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/css/chosen.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/usersfruitfarm_page.php" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/usersfruitfarm_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/html5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/html5.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfourteen/js/html5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/html5.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentysixteen/js/html5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ID3/module.audio.mp3.php" afterPath="$PROJECT_DIR$/wp-includes/ID3/module.audio.mp3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ID3/module.tag.id3v2.php" afterPath="$PROJECT_DIR$/wp-includes/ID3/module.tag.id3v2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-phpmailer.php" afterPath="$PROJECT_DIR$/wp-includes/class-phpmailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/embed.php" afterPath="$PROJECT_DIR$/wp-includes/embed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/formatting.php" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.php" afterPath="$PROJECT_DIR$/wp-includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tiny_mce_popup.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tiny_mce_popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/zxcvbn.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/zxcvbn.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/js/custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/marketplace/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/marketplace/js/jquery.dataTables.min.js" />
     </list>
     <ignored path="wp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,8 +46,18 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2034">
-              <caret line="113" column="22" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="22" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,46 +66,29 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="77" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+            <state relative-caret-position="1674">
+              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usersmachinery_page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersmachinery_page.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2093">
-              <caret line="210" column="54" selection-start-line="210" selection-start-column="54" selection-end-line="210" selection-end-column="54" />
-              <folding>
-                <marker date="1470571948624" expanded="true" signature="1187:1240" ph="DELETE FROM " />
-                <marker date="1470571948624" expanded="true" signature="1347:1401" ph="SELECT * FRO... wp_frontuserdata" />
-                <marker date="1470571948624" expanded="true" signature="1564:1618" ph="SELECT * FRO... wp_frontuserdata" />
-                <marker date="1470571948624" expanded="true" signature="2932:3023" ph="SELECT * FRO... wp_frontuserdata" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="31" selection-start-line="33" selection-start-column="19" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="405">
+              <caret line="416" column="33" selection-start-line="416" selection-start-column="33" selection-end-line="416" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php">
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1471081176846" expanded="true" signature="713:925" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
-              </folding>
+            <state relative-caret-position="2106">
+              <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -198,8 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/steelpricelist_page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/currencyrates_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/stockexchange_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/frontuserdataform.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/goldsilver_page.php" />
@@ -221,11 +131,9 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-user-manager/assets/css/wp_user_manager.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/css/freelancer.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-user-manager/assets/css/wp_user_manager_frontend.min.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/js/custom.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/contact_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/js/functions.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/js/tmp.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/functions.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/usersland_page.php" />
@@ -242,13 +150,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/dashboard_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/yarnpricelist_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/usersproductslisting_page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/contact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/js/custom.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/css/chosen.min.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/js/jquery.dataTables.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketplace/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketplace/functions.php" />
       </list>
     </option>
   </component>
@@ -364,32 +276,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="marketplace" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -406,19 +292,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/img" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/img/users" />
-      <recent name="$PROJECT_DIR$/wp-content/plugins/wp-user-manager/assets/css" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/css" />
-      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/img/portfolio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/img" />
       <recent name="$PROJECT_DIR$/wp-content/themes/marketplace" />
       <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/css" />
       <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/js" />
       <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/img" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/img/users" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins/wp-user-manager/assets/css" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/css" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/marketplace/img/portfolio" />
     </key>
   </component>
   <component name="RunManager">
@@ -630,7 +516,21 @@
       <workItem from="1471086793964" duration="310000" />
       <workItem from="1471090923022" duration="293000" />
       <workItem from="1471091271752" duration="975000" />
-      <workItem from="1471179800620" duration="63000" />
+      <workItem from="1471179800620" duration="3220000" />
+      <workItem from="1471189898314" duration="406000" />
+      <workItem from="1471193761789" duration="145000" />
+      <workItem from="1471366601129" duration="119000" />
+      <workItem from="1471371141012" duration="30000" />
+      <workItem from="1471704773582" duration="1680000" />
+      <workItem from="1472218924765" duration="113000" />
+      <workItem from="1472219136584" duration="83000" />
+      <workItem from="1472219287195" duration="161000" />
+      <workItem from="1472354447785" duration="6154000" />
+      <workItem from="1472364457402" duration="5466000" />
+      <workItem from="1472384932047" duration="182000" />
+      <workItem from="1472401889843" duration="785000" />
+      <workItem from="1473154834605" duration="12000" />
+      <workItem from="1473154860886" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="routine">
       <created>1464659279155</created>
@@ -744,17 +644,24 @@
       <option name="project" value="LOCAL" />
       <updated>1470884127597</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="routine">
+      <created>1471180656494</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1471180656494</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533011000" />
+    <option name="totallyTimeSpent" value="552138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1362" height="736" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20091324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24581431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -823,38 +730,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/NiceSimpleContactForm/NiceSimpleContactForm/contactthanks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/NiceSimpleContactForm/NiceSimpleContactForm/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/currencyrates_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -907,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/css/chosen.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="2" column="909" selection-start-line="2" selection-start-column="909" selection-end-line="2" selection-end-column="909" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/js/skip-link-focus-fix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -925,13 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3186">
           <caret line="177" column="14" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6768">
-          <caret line="400" column="0" selection-start-line="400" selection-start-column="0" selection-end-line="407" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1096,24 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="70" column="50" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/yarnpricelist_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersproductslisting_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1131,6 +982,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="328" column="16" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersmachinery_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="210" column="54" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersproductslisting_page-bk.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersproductslisting_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8568">
+          <caret line="476" column="20" selection-start-line="476" selection-start-column="20" selection-end-line="476" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1141,57 +1021,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="328" column="16" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/css/chosen.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/js/jquery.chosen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="1287" column="0" selection-start-line="1287" selection-start-column="0" selection-end-line="1287" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/js/jquery.dataTables.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="165" column="393" selection-start-line="165" selection-start-column="393" selection-end-line="165" selection-end-column="393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="113" column="22" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="22" />
+        <state relative-caret-position="432">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="77" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+        <state relative-caret-position="1674">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/contact.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="31" selection-start-line="33" selection-start-column="19" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="405">
+          <caret line="416" column="33" selection-start-line="416" selection-start-column="33" selection-end-line="416" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1471081176846" expanded="true" signature="713:925" ph="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketplace/usersmachinery_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
-          <caret line="210" column="54" selection-start-line="210" selection-start-column="54" selection-end-line="210" selection-end-column="54" />
-          <folding>
-            <marker date="1470571948624" expanded="true" signature="1187:1240" ph="DELETE FROM " />
-            <marker date="1470571948624" expanded="true" signature="1347:1401" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1470571948624" expanded="true" signature="1564:1618" ph="SELECT * FRO... wp_frontuserdata" />
-            <marker date="1470571948624" expanded="true" signature="2932:3023" ph="SELECT * FRO... wp_frontuserdata" />
-          </folding>
         </state>
       </provider>
     </entry>

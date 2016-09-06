@@ -14,7 +14,7 @@ get_header();
                 <p>
                     <?php
 
-                    echo do_shortcode('[contact-form-7 id="584" title="Untitled"]');
+                    echo do_shortcode('[contact-form-7-rename id="641" title="contact"]');
                     ?>
                 </p>
 

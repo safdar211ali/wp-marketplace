@@ -82,6 +82,7 @@
 <!-- Custom Theme JavaScript -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/freelancer.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.chosen.js"></script>
+<!--<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>-->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.dataTables.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-ui.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/custom.js"></script>

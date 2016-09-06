@@ -406,3 +406,12 @@ add_action( 'wp_default_scripts', function( $scripts ) {
         $scripts->registered['jquery']->deps = array_diff( $jquery_dependencies, array( 'jquery-migrate' ) );
     }
 } );
+
+
+//custom
+function custom_posts_per_page( $query ) {
+    if ( $query->is_archive() && $query->is_main_query() ) {
+        $query->set( 'posts_per_page', -1 );
+    }
+}
+add_action( 'pre_get_posts', 'custom_posts_per_page' );
