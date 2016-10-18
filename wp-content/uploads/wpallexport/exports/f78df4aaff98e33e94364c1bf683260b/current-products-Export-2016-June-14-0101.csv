@@ -1,0 +1,241 @@
+﻿id,Title,post_type,product_category,MinRate,MaxRate
+22,Apple,product,,100,120
+25,Mango,product,,80,100
+33,Mango,product,,80,100
+34,Apple,product,,100,120
+35,Mango,product,,80,100
+40,Chicken,product,,240,250
+57,,product,"Agricultural Commodities>Attock",100,120
+58,,product,"Agricultural Commodities>Attock",80,100
+59,,product,"Agricultural Commodities>Bahawalnagar",80,100
+60,,product,"Agricultural Commodities>Bahawalnagar",100,120
+61,,product,"Agricultural Commodities>Bhakkar",80,100
+62,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+64,,product,"Agricultural Commodities>Attock",100,120
+65,,product,"Agricultural Commodities>Attock",50,70
+66,,product,"Agricultural Commodities>Bahawalnagar",50,70
+67,,product,"Agricultural Commodities>Bahawalnagar",100,120
+68,,product,"Agricultural Commodities>Bhakkar",50,70
+69,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+71,,product,"Agricultural Commodities>Attock",,
+72,,product,"Agricultural Commodities>Attock",,
+73,,product,"Agricultural Commodities>Bahawalnagar",,
+74,,product,"Agricultural Commodities>Bahawalnagar",,
+75,,product,"Agricultural Commodities>Bhakkar",,
+76,,product,"Poultry,Meat &amp; Fish>Attock",,
+78,Applee,product,"Agricultural Commodities>Attock",100,120
+79,Mango,product,"Agricultural Commodities>Attock",50,70
+80,Mango,product,"Agricultural Commodities>Bahawalnagar",50,70
+81,Apple,product,"Agricultural Commodities>Bahawalnagar",100,120
+82,Mango,product,"Agricultural Commodities>Bhakkar",50,70
+83,Chicken,product,"Poultry,Meat &amp; Fish>Attock",240,250
+85,,product,"Agricultural Commodities>Attock",100,120
+86,,product,"Agricultural Commodities>Attock",50,70
+87,,product,"Agricultural Commodities>Bahawalnagar",80,100
+88,,product,"Agricultural Commodities>Bahawalnagar",100,120
+89,,product,"Agricultural Commodities>Bhakkar",80,100
+90,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+91,,product,,100,120
+92,,product,,80,100
+93,,product,,80,100
+94,,product,,100,120
+95,,product,,80,100
+96,,product,,240,250
+97,,product,,100,120
+98,,product,,50,70
+99,,product,,50,70
+100,,product,,100,120
+101,,product,,50,70
+102,,product,,240,250
+103,,product,,,
+104,,product,,,
+105,,product,,,
+106,,product,,,
+107,,product,,,
+108,,product,,,
+109,,product,,100,120
+110,,product,,50,70
+111,,product,,50,70
+112,,product,,100,120
+113,,product,,50,70
+114,,product,,240,250
+116,,product,,100,120
+117,,product,,80,100
+118,,product,,80,100
+119,,product,,100,120
+120,,product,,80,100
+121,,product,,240,250
+122,,product,"Agricultural Commodities>Attock",100,120
+123,,product,"Agricultural Commodities>Attock",80,100
+124,,product,"Agricultural Commodities>Bahawalnagar",80,100
+125,,product,"Agricultural Commodities>Bahawalnagar",100,120
+126,,product,"Agricultural Commodities>Bhakkar",80,100
+127,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+128,,product,"Agricultural Commodities>Attock",100,120
+129,,product,"Agricultural Commodities>Attock",50,70
+130,,product,"Agricultural Commodities>Bahawalnagar",50,70
+131,,product,"Agricultural Commodities>Bahawalnagar",100,120
+132,,product,"Agricultural Commodities>Bhakkar",50,70
+133,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+134,,product,"Agricultural Commodities>Attock",,
+135,,product,"Agricultural Commodities>Attock",,
+136,,product,"Agricultural Commodities>Bahawalnagar",,
+137,,product,"Agricultural Commodities>Bahawalnagar",,
+138,,product,"Agricultural Commodities>Bhakkar",,
+139,,product,"Poultry,Meat &amp; Fish>Attock",,
+140,,product,"Agricultural Commodities>Attock",100,120
+141,,product,"Agricultural Commodities>Attock",50,70
+142,,product,"Agricultural Commodities>Bahawalnagar",50,70
+143,,product,"Agricultural Commodities>Bahawalnagar",100,120
+144,,product,"Agricultural Commodities>Bhakkar",50,70
+145,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+146,,product,"Agricultural Commodities>Attock",100,120
+147,,product,"Agricultural Commodities>Attock",50,70
+148,,product,"Agricultural Commodities>Bahawalnagar",80,100
+149,,product,"Agricultural Commodities>Bahawalnagar",100,120
+150,,product,"Agricultural Commodities>Bhakkar",80,100
+151,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+152,,product,,100,120
+153,,product,,80,100
+154,,product,,80,100
+155,,product,,100,120
+156,,product,,80,100
+157,,product,,240,250
+158,,product,,100,120
+159,,product,,50,70
+160,,product,,50,70
+161,,product,,100,120
+162,,product,,50,70
+163,,product,,240,250
+164,,product,,,
+165,,product,,,
+166,,product,,,
+167,,product,,,
+168,,product,,,
+169,,product,,,
+170,,product,,100,120
+171,,product,,50,70
+172,,product,,50,70
+173,,product,,100,120
+174,,product,,50,70
+175,,product,,240,250
+177,,product,,100,120
+178,,product,,80,100
+179,,product,,80,100
+180,,product,,100,120
+181,,product,,80,100
+182,,product,,240,250
+183,,product,"Agricultural Commodities>Attock",100,120
+184,,product,"Agricultural Commodities>Attock",80,100
+185,,product,"Agricultural Commodities>Bahawalnagar",80,100
+186,,product,"Agricultural Commodities>Bahawalnagar",100,120
+187,,product,"Agricultural Commodities>Bhakkar",80,100
+188,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+189,,product,"Agricultural Commodities>Attock",100,120
+190,,product,"Agricultural Commodities>Attock",50,70
+191,,product,"Agricultural Commodities>Bahawalnagar",50,70
+192,,product,"Agricultural Commodities>Bahawalnagar",100,120
+193,,product,"Agricultural Commodities>Bhakkar",50,70
+194,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+195,,product,"Agricultural Commodities>Attock",,
+196,,product,"Agricultural Commodities>Attock",,
+197,,product,"Agricultural Commodities>Bahawalnagar",,
+198,,product,"Agricultural Commodities>Bahawalnagar",,
+199,,product,"Agricultural Commodities>Bhakkar",,
+200,,product,"Poultry,Meat &amp; Fish>Attock",,
+201,,product,"Agricultural Commodities>Attock",100,120
+202,,product,"Agricultural Commodities>Attock",50,70
+203,,product,"Agricultural Commodities>Bahawalnagar",50,70
+204,,product,"Agricultural Commodities>Bahawalnagar",100,120
+205,,product,"Agricultural Commodities>Bhakkar",50,70
+206,,product,"Poultry,Meat &amp; Fish>Attock",200,250
+207,,product,"Agricultural Commodities>Attock",100,120
+208,,product,"Agricultural Commodities>Attock",50,70
+209,,product,"Agricultural Commodities>Bahawalnagar",80,100
+210,,product,"Agricultural Commodities>Bahawalnagar",100,120
+211,,product,"Agricultural Commodities>Bhakkar",80,100
+212,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+213,,product,,100,120
+214,,product,,80,100
+215,,product,,80,100
+216,,product,,100,120
+217,,product,,80,100
+218,,product,,240,250
+219,,product,,100,120
+220,,product,,50,70
+221,,product,,50,70
+222,,product,,100,120
+223,,product,,50,70
+224,,product,,240,250
+225,,product,,,
+226,,product,,,
+227,,product,,,
+228,,product,,,
+229,,product,,,
+230,,product,,,
+231,,product,,100,120
+232,,product,,50,70
+233,,product,,50,70
+234,,product,,100,120
+235,,product,,50,70
+236,,product,,240,250
+238,,product,,100,120
+239,,product,,80,100
+240,,product,,80,100
+241,,product,,100,120
+242,,product,,80,100
+243,,product,,240,250
+244,,product,"Agricultural Commodities>Attock",100,120
+245,,product,"Agricultural Commodities>Attock",80,100
+246,,product,"Agricultural Commodities>Bahawalnagar",80,100
+247,,product,"Agricultural Commodities>Bahawalnagar",100,120
+248,,product,"Agricultural Commodities>Bhakkar",80,100
+249,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+250,,product,"Agricultural Commodities>Attock",100,120
+251,,product,"Agricultural Commodities>Attock",50,70
+252,,product,"Agricultural Commodities>Bahawalnagar",50,70
+253,,product,"Agricultural Commodities>Bahawalnagar",100,120
+254,,product,"Agricultural Commodities>Bhakkar",50,70
+255,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+256,,product,"Agricultural Commodities>Attock",,
+257,,product,"Agricultural Commodities>Attock",,
+258,,product,"Agricultural Commodities>Bahawalnagar",,
+259,,product,"Agricultural Commodities>Bahawalnagar",,
+260,,product,"Agricultural Commodities>Bhakkar",,
+261,,product,"Poultry,Meat &amp; Fish>Attock",,
+262,,product,"Agricultural Commodities>Attock",100,120
+263,,product,"Agricultural Commodities>Attock",50,70
+264,,product,"Agricultural Commodities>Bahawalnagar",50,70
+265,,product,"Agricultural Commodities>Bahawalnagar",100,120
+266,,product,"Agricultural Commodities>Bhakkar",50,70
+267,,product,"Poultry,Meat &amp; Fish>Attock",200,250
+268,,product,"Agricultural Commodities>Attock",100,120
+269,,product,"Agricultural Commodities>Attock",50,70
+270,,product,"Agricultural Commodities>Bahawalnagar",80,100
+271,,product,"Agricultural Commodities>Bahawalnagar",100,120
+272,,product,"Agricultural Commodities>Bhakkar",80,100
+273,,product,"Poultry,Meat &amp; Fish>Attock",240,250
+274,,product,,100,120
+275,,product,,80,100
+276,,product,,80,100
+277,,product,,100,120
+278,,product,,80,100
+279,,product,,240,250
+280,,product,,100,120
+281,,product,,50,70
+282,,product,,50,70
+283,,product,,100,120
+284,,product,,50,70
+285,,product,,240,250
+286,,product,,,
+287,,product,,,
+288,,product,,,
+289,,product,,,
+290,,product,,,
+291,,product,,,
+292,,product,,100,120
+293,,product,,50,70
+294,,product,,50,70
+295,,product,,100,120
+296,,product,,50,70
+297,,product,,240,250
